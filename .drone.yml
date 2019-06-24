@@ -5,4 +5,4 @@ steps:
 - name: copy
   image: alpine:latest
   commands:
-  - bash script.sh
+  - sh script.sh
