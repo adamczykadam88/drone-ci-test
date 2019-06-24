@@ -2,7 +2,7 @@ kind: pipeline
 name: drone-ci-test
 
 steps:
-- name: copy
+- name: execute script
   image: alpine:latest
   commands:
   - sh script.sh
