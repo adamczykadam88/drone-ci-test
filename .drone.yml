@@ -1,5 +1,9 @@
-build:
- image: alpine:latest
- pull: true
- commands:
-  - script.sh
+kind: pipeline
+name: drone-ci-test
+
+steps:
+- name: build
+  image: alpine:latest
+  pull: true
+  commands:
+  - bash script.sh
