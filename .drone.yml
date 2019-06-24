@@ -1,0 +1,5 @@
+build:
+ image: alpine:latest
+ pull: true
+ commands:
+  - script.sh
